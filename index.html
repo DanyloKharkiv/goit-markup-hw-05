@@ -54,7 +54,7 @@
                 <h1 class="effect-solut"> 
                     Ефективні рішення для </br>вашого бізнесу
                 </h1>
-                <button class="open-btn" type="button">
+                <button class="open-btn" type="button" data-modal-open>
                     Замовити послугу
                 </button>
             </div>
@@ -382,5 +382,15 @@
         </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal is-hidden">
+            <button class="modal-close-btn" type="button" data-modal-close>
+                <svg class="modal-close-icon" width="11" height="11">
+                    <use href="./images/sprite.svg#close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
